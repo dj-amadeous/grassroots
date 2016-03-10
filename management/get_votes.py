@@ -1,10 +1,10 @@
 from django.core.management.base import BaseCommand
-from grassroots.models import api
-
+from api import read_from_csv
+from api import create_bills
 
 class Command(BaseCommand):
     help = 'imports from csv'
-    def import_from_csv(self):
+    
 
 class Command(BaseCommand):
     help = 'creates bills'   
